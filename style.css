@@ -1,0 +1,127 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background-color: rgb(31, 44, 78);
+}
+
+#title-img {
+    position: relative;
+    /* Change height as screen changes */
+
+
+}
+
+h1 {
+    color: rgba(255, 228, 154, 0.881);
+    padding-top: 70px;
+    text-shadow: 0px 0px 30px rgb(205 167 65);
+}
+
+h1:hover {
+    color: rgba(255, 237, 186, 0.881);;
+    text-shadow: 0 0px 30px rgb(243, 217, 147);
+}
+
+
+p, h2 {
+    color: rgb(205 167 65);
+    font-family: sans-serif;
+}
+
+h3 {
+    color: white;
+}
+
+#pic-of-me {
+    width: 110px;
+    height: 240px;
+    border: 3px solid rgba(234, 205, 127, 0.881);
+    border-radius: 60px;
+    box-shadow: 0 0px 64px rgb(205 167 65);
+}
+
+#pic-of-me:hover {
+    box-shadow: 0 0px 80px rgb(243, 217, 147);
+}
+
+#introduction {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    color: rgb(205 167 65);;
+}
+
+
+
+
+#resume-container { 
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(234, 205, 127, 0.881);
+}
+
+a:hover {
+    text-shadow: 0 0px 80px rgb(243, 217, 147);
+    color: white;
+    text-shadow: 0px 0px 20px rgb(205 167 65);
+}
+
+
+
+.bi-file-person {
+    color: rgb(234, 205, 127, 0.881);
+    text-shadow: 0px 0px 30px rgb(205 167 65);
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+
+#resume-container:hover > a, 
+#resume-container:hover .bi-file-person:hover,
+#contact-button:hover {
+    color: rgb(255, 235, 178);
+    text-shadow: 0px 0px 20px rgb(242, 212, 128);
+    font-size: larger;
+}
+
+#contact-button {
+    height: 60px;
+    width: 200px;
+    background-color: rgb(234, 205, 127, 0.881);
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 50px;
+}
+
+#contact-button:hover {
+    text-shadow: 0 0px 30px rgb(243, 217, 147);
+    background-color: rgba(255, 242, 207, 0.881);
+    box-shadow: 0 0px 80px rgb(243, 217, 147);
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#button-text {
+    margin-top: 18px;
+}
+
+li {
+    list-style: none;
+}
