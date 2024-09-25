@@ -9,9 +9,8 @@ body {
 
 #title-img {
     position: relative;
-    /* Change height as screen changes */
-
-
+    width: 100%;
+    height: 100vh;
 }
 
 h1 {
